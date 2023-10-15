@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "omegat-setup-borrowing-app"
+version = "0.1.0"
+description = ""
+authors = ["msoutopico <m.soutopico@gmail.com>"]
+readme = "README.md"
+packages = [{include = "omegat_setup_borrowing_app"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+pandas = "^2.1.1"
+odfpy = "^1.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
